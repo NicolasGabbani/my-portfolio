@@ -44,7 +44,7 @@
         <lottie-player class="lottie" src="https://assets10.lottiefiles.com/private_files/lf30_abpsfqg6.json"  background="transparent"  speed="1" loop  autoplay></lottie-player>
       </div>
     </div>
-    <div class="grid separator" data-aos="zoom-in-up" data-aos-offset="100">
+    <div class="grid" data-aos="zoom-in-up" data-aos-offset="100">
       <div class="col">
         <lottie-player class="lottie" src="https://assets4.lottiefiles.com/packages/lf20_3JZqqW.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
       </div>
