@@ -1,0 +1,32 @@
+.nav
+  position: fixed
+  top: 0
+  left: 0
+  z-index: 10
+
+  width: 100%
+  height: var(--menu-height)
+
+  display: flex
+  flex-wrap: nowrap
+  justify-content: flex-end
+  align-items: center
+
+  padding: 0 1vw
+
+  a
+    display: block
+    padding: 12px
+
+    transition: var(--transition-duration)
+
+    border-bottom: 1px solid transparent
+    
+    &:hover, &.router-link-active
+      border-color: var(--color-black)
+    &.nav-home
+      margin-right: auto
+    &:not(.nav-home)
+      margin-right: 15px
+      &:last-child
+        margin-right: 0

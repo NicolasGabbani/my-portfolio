@@ -1,0 +1,97 @@
+.polygon
+  width: 100px
+  height: 57.735px
+
+  background: var(--color-polygon)
+  color: var(--color-white)
+  font-family: var(--font-fredoka)
+  font-size: 1.4rem
+
+  position: absolute
+
+  display: flex
+  justify-content: center
+  align-items: center
+
+  animation: floating 6s ease-in-out infinite
+
+  &.reverse
+    background: var(--color-green)
+    &::before, &::after
+      border-bottom-color: var(--color-green)
+      border-top-color: var(--color-green)
+
+  &::before
+    content: ""
+
+    position: absolute
+    top: -28.8675px
+    left: 0
+
+    width: 0
+    height: 0
+
+    border-left: 50px solid transparent
+    border-right: 50px solid transparent
+    border-bottom: 28.8675px solid var(--color-polygon)
+
+  &::after
+    content: ""
+
+    position: absolute
+    bottom: -28.8675px
+    left: 0
+
+    width: 0
+    height: 0
+    
+    border-left: 50px solid transparent
+    border-right: 50px solid transparent
+    border-top: 28.8675px solid var(--color-polygon)
+
+.polygon-html
+  top: 30%
+  left: 30%
+
+.polygon-css
+  top: 35%
+  right: 30%
+  animation-delay: 1s
+
+.polygon-js
+  bottom: 30%
+  right: 40%
+  animation-delay: 1.5s
+
+.polygon-design
+  bottom: 40%
+  left: 25%
+  animation-delay: 1.2s
+
+.polygon-empty
+  position: absolute
+  
+.polygon-empty1
+  top: 30%
+  transform: scale(.4)
+  filter: blur(4px)
+
+.polygon-empty2
+  bottom: 35%
+  right: 35%
+  transform: scale(.6)
+  filter: blur(4px)
+
+.polygon-empty3
+  bottom: 30%
+  left: 35%
+  transform: scale(.3)
+  filter: blur(12px)
+
+@keyframes floating
+  0%
+    transform: translatey(0px)
+  50%
+    transform: translatey(-20px)
+  100%
+    transform: translatey(0px)

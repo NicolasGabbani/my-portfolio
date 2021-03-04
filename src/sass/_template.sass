@@ -1,0 +1,54 @@
+.grid
+  width: 50vw
+  display: grid
+  grid-template-columns: repeat(2, 1fr)
+  grid-gap: 20px
+  grid-auto-rows: minmax(100px, auto)
+
+.content
+  padding: calc(var(--menu-height) + 80px) calc(1vw + 12px)
+  display: flex
+  justify-content: flex-start
+  align-items: center
+  flex-direction: column
+
+  height: 100vh
+
+  position: relative
+  
+  .col
+    display: flex
+    justify-content: center
+    flex-direction: column
+  
+  p
+    line-height: 2
+
+  h1
+    margin: 0 auto 80px auto
+    
+    line-height: 1
+    border-bottom: 6px solid var(--color-green)
+
+  h2
+    margin-bottom: 10px
+
+
+.design-circle
+  width: 100vw
+  height: 100vw
+  border-radius: 32% 68% 45% 55% / 49% 35% 65% 51% 
+
+  background: var(--color-two)
+  opacity: .2
+
+  position: fixed
+  bottom: -40%
+  left: -10%
+  z-index: -1
+
+  animation: rotate 60s linear infinite
+
+@keyframes rotate
+  to
+    transform: rotate(360deg)
