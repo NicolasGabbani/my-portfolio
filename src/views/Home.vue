@@ -55,7 +55,11 @@ export default {
     right: 0
   .i
     top: 14%
+    right: 1px
     z-index: 5
+
+    width: 18px
+    height: 18px
 
     background: var(--color-green)
 
