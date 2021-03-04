@@ -4,7 +4,7 @@
     <h1>À PROPOS DE MOI</h1>
     <div class="grid">
       <div class="col">
-        <lottie-player class="lottie" src="https://assets2.lottiefiles.com/packages/lf20_rycdh53q.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+        <lottie-player class="lottie" src="https://assets2.lottiefiles.com/packages/lf20_rycdh53q.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
       </div>
       <div class="col">
         <h2>Bosseur !</h2>
@@ -13,11 +13,20 @@
     </div>
     <div class="grid separator">
       <div class="col">
-        <h2>Teamplay !</h2>
+        <h2>Teamwork !</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quod veritatis ipsum, minima ea eaque provident temporibus! Veritatis eligendi perspiciatis, architecto voluptatibus at ipsum odio neque fugit cum consequuntur sit.</p>
       </div>
       <div class="col">
-        <lottie-player class="lottie" src="https://assets10.lottiefiles.com/private_files/lf30_abpsfqg6.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+        <lottie-player class="lottie" src="https://assets10.lottiefiles.com/private_files/lf30_abpsfqg6.json"  background="transparent"  speed="1" loop  autoplay></lottie-player>
+      </div>
+    </div>
+    <div class="grid separator">
+      <div class="col">
+        <lottie-player class="lottie" src="https://assets4.lottiefiles.com/packages/lf20_3JZqqW.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
+      </div>
+      <div class="col">
+        <h2>Auto didacte !</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At quia voluptatum libero sapiente quas. Quae illo, alias sapiente repellendus distinctio excepturi dolorem, sed voluptas consequatur, repellat aliquam blanditiis cumque reiciendis!</p>
       </div>
     </div>
   </div>
