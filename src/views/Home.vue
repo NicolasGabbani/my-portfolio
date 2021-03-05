@@ -15,6 +15,7 @@
     </div>
     <h1 class="itsme">Nicolas <span>Gabbani</span> <div class="i"></div> <div class="i-hidden"></div></h1>
     <span class="itsme-desc">Développeur Front-End</span>
+    <router-link class="cta" to="/about">me découvrir</router-link>
   </div>
 </template>
 
@@ -72,4 +73,24 @@ export default {
 
   font-size: 2rem
   font-family: var(--font-dancing)
+
+.cta
+  display: block
+  margin-top: 50px
+  padding: 12px 18px 8px 18px
+
+  font-size: 1.4rem
+  //text-transform: uppercase
+  font-weight: bold
+  font-family: var(--font-indie)
+  line-height: 1
+
+  color: var(--color-green)
+  background: rgba(0, 128, 101, .1)
+  border-radius: 30px
+
+  transition: all var(--transition-duration)
+
+  &:hover
+    background: rgba(0, 128, 101, .2)
 </style>

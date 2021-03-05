@@ -26,19 +26,27 @@
       <div class="polygon reverse smooth-blur"></div>
     </div>
     <h1>À PROPOS DE MOI</h1>
+    <div class="sub-title"><span>"</span>Aucunes excuses pour ne pas se donner à fond, même pas le covid.<span>"</span></div>
     <div class="grid" data-aos="zoom-in-up" data-aos-offset="100">
       <div class="col">
         <lottie-player class="lottie" src="https://assets2.lottiefiles.com/packages/lf20_rycdh53q.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
       </div>
       <div class="col">
-        <h2>Bosseur !</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis deserunt laboriosam dolor, mollitia sequi molestiae cum voluptate, vitae illo sit inventore quae, blanditiis incidunt vero quod tenetur architecto earum accusamus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi id asperiores ut repudiandae quas rerum recusandae fugit possimus vitae ea explicabo autem quod nihil iure, fuga libero accusantium unde velit!</p>
+        <h2>Investi !</h2>
+        <p>Toujours la tête dans le cloud et en veille technologique, je cherche toujours à avoir une plus-value dans mes intégrations pour réaliser des produits à l'effet "wow".</p>
+        <p>
+          <span class="tag">pixel perfect</span> <span class="tag">responsive design</span> <span class="tag">clean code</span>
+        </p>
       </div>
     </div>
     <div class="grid separator" data-aos="zoom-in-up" data-aos-offset="100">
       <div class="col">
         <h2>Teamwork !</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quod veritatis ipsum, minima ea eaque provident temporibus! Veritatis eligendi perspiciatis, architecto voluptatibus at ipsum odio neque fugit cum consequuntur sit.</p>
+        <p>En tant que développeur front-end, je prends plaisir à travailler avec l'ensemble d'une équipe pour mener à bien des projets alliant technicité et sensibilité.</p>
+        <p>Force de proposition, j'aime apporter des conseils et partager mon expérience pour le bien d'un projet et, bien sûr, m'enrichir des autres.</p>
+        <p>
+          <span class="tag">per coding</span> <span class="tag">inspirant</span> <span class="tag">méthodes agiles</span>
+        </p>
       </div>
       <div class="col">
         <lottie-player class="lottie" src="https://assets10.lottiefiles.com/private_files/lf30_abpsfqg6.json"  background="transparent"  speed="1" loop  autoplay></lottie-player>
@@ -46,11 +54,15 @@
     </div>
     <div class="grid" data-aos="zoom-in-up" data-aos-offset="100">
       <div class="col">
-        <lottie-player class="lottie" src="https://assets4.lottiefiles.com/packages/lf20_3JZqqW.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
+        <lottie-player class="lottie" src="https://assets5.lottiefiles.com/private_files/lf30_BX96aR.json"  background="transparent"  speed="1" loop  autoplay></lottie-player>
       </div>
       <div class="col">
-        <h2>Auto didacte !</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At quia voluptatum libero sapiente quas. Quae illo, alias sapiente repellendus distinctio excepturi dolorem, sed voluptas consequatur, repellat aliquam blanditiis cumque reiciendis!</p>
+        <h2>Autodidacte !</h2>
+        <p>Passionné depuis toujours, j'ai décidé, il y a maintenant 6 ans, de faire internet mon métier. <br> Ma curiosité naturelle m'a amméné à apprendre tout ce que je pouvais sur le développement web.</p>
+        <p>Pourquoi être devenu Développeur Front-End ? J'aime quand une maquette prend vie.</p>
+        <p>
+          <span class="tag">try hard</span> <span class="tag">indépendant</span> <span class="tag">challenger</span>
+        </p>
       </div>
     </div>
   </div>

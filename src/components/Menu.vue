@@ -1,9 +1,9 @@
 <template>
   <nav class="nav">
     <router-link class="nav-home" to="/">Nicolas Gabbani</router-link>
-    <router-link to="/about">About</router-link>
-    <router-link to="/skills">Skills</router-link>
-    <router-link to="/contact">Contact</router-link>
+    <router-link to="/about">à propos de moi</router-link>
+    <router-link to="/skills">compétences</router-link>
+    <router-link to="/contact">me contacter</router-link>
   </nav>
 </template>
 
