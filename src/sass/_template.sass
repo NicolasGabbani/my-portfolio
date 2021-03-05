@@ -5,6 +5,13 @@
   grid-gap: 80px
   grid-auto-rows: minmax(100px, auto)
 
+.full-grid
+  width: 50vw
+  display: grid
+  grid-template-columns: repeat(5, 1fr)
+  grid-gap: 10px
+  //grid-auto-rows: minmax(30px, auto)
+
 .content
   padding: calc(var(--menu-height) + 80px) calc(1vw + 12px)
   display: flex
@@ -38,17 +45,18 @@
     font-family: var(--font-dancing)
     font-size: 1.5rem
     position: relative
-    span
+    &::before, &::after
+      content: '"'
       color: var(--color-green)
       font-size: 4rem
       position: absolute
       top: -20px
       left: -30px
-      &:last-child
-        left: auto
-        right: -30px
-        top: -30px
-        transform: rotate(180deg)
+    &::after
+      left: auto
+      right: -30px
+      top: -30px
+      transform: rotate(180deg)
 
   h2
     margin-bottom: 10px
@@ -82,3 +90,21 @@
   color: var(--color-white)
 
   background: rgba(26, 26, 26,1)
+
+  &.big-tag
+    display: flex
+    justify-content: center
+    align-items: center
+    border-radius: 10px
+
+    height: 100px
+
+    font-size: 2rem
+    text-transform: uppercase
+    font-weight: bold
+
+@keyframes zoomIn 
+  from
+    transform: scale(0)
+  to
+    transform: scale(1)

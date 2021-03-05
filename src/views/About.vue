@@ -26,7 +26,7 @@
       <div class="polygon reverse smooth-blur"></div>
     </div>
     <h1>À PROPOS DE MOI</h1>
-    <div class="sub-title"><span>"</span>Aucunes excuses pour ne pas se donner à fond, même pas le covid.<span>"</span></div>
+    <div class="sub-title">Pas peu fier d'être autodidacte !</div>
     <div class="grid" data-aos="zoom-in-up" data-aos-offset="100">
       <div class="col">
         <lottie-player class="lottie" src="https://assets2.lottiefiles.com/packages/lf20_rycdh53q.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>

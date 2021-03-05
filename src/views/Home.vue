@@ -13,7 +13,7 @@
     <div class="polygon-empty polygon-empty3">
       <div class="polygon reverse"></div>
     </div>
-    <h1 class="itsme">Nicolas <span>Gabbani</span> <div class="i"></div> <div class="i-hidden"></div></h1>
+    <h1 class="itsme">{{data.firstname}} <span>{{data.lastname}}</span> <div class="i"></div> <div class="i-hidden"></div></h1>
     <span class="itsme-desc">Développeur Front-End</span>
     <router-link class="cta" to="/about">me découvrir</router-link>
   </div>
@@ -22,6 +22,16 @@
 <script>
 export default {
   name: 'Home',
+  setup() {
+    const data = {
+      firstname: 'Nicolas',
+      lastname: 'Gabbani',
+    }
+
+    return {
+      data
+    }
+  }
 }
 </script>
 
