@@ -6,7 +6,7 @@
     <div class="polygon polygon3 blur"></div>
     <h1>Mes compétences</h1>
     <div class="sub-title">J'avoue, j'ai une préférence pour VueJS...</div>
-    <div class="grid separator">
+    <div class="grid separator" data-aos="zoom-in-up" data-aos-offset="100">
       <div class="col">
         <lottie-player class="lottie lottie-small" src="https://assets1.lottiefiles.com/packages/lf20_irbwsg1b.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
       </div>
@@ -51,6 +51,44 @@
         </div>
         <div class="col">
           <span class="tag big-tag">RubyOnRails</span>
+        </div>
+        <div class="col col-end">
+          <span class="small">et tant d'autres...</span>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2>mes plugins javascript préférés</h2>
+      <div class="full-grid skills">
+        <div class="col">
+          <span class="tag big-tag">owl carousel</span>
+        </div>
+        <div class="col">
+          <span class="tag big-tag">animejs</span>
+        </div>
+        <div class="col">
+          <span class="tag big-tag">rellax</span>
+        </div>
+        <div class="col">
+          <span class="tag big-tag">tsparticle</span>
+        </div>
+        <div class="col">
+          <span class="tag big-tag">lottiefiles</span>
+        </div>
+        <div class="col">
+          <span class="tag big-tag" style="font-size: 1.9rem">animate on scroll</span>
+        </div>
+        <div class="col">
+          <span class="tag big-tag">progressbar</span>
+        </div>
+        <div class="col">
+          <span class="tag big-tag">tilt</span>
+        </div>
+        <div class="col">
+          <span class="tag big-tag">numeraljs</span>
+        </div>
+        <div class="col">
+          <span class="tag big-tag">simplebar</span>
         </div>
         <div class="col col-end">
           <span class="small">et tant d'autres...</span>

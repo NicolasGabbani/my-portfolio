@@ -7,9 +7,6 @@
     <div class="rellax rellax2" data-rellax-speed="4">
       <div class="polygon smooth-blur"></div>
     </div>
-    <div class="rellax rellax3" data-rellax-speed="9">
-      <div class="polygon blur"></div>
-    </div>
     <div class="rellax rellax4" data-rellax-speed="7">
       <div class="polygon reverse blur"></div>
     </div>
@@ -27,7 +24,7 @@
     </div>
     <h1>À PROPOS DE MOI</h1>
     <div class="sub-title">Pas peu fier d'être autodidacte !</div>
-    <div class="grid" data-aos="zoom-in-up" data-aos-offset="100">
+    <div class="grid separator small-separator" data-aos="zoom-in-up" data-aos-offset="100">
       <div class="col">
         <lottie-player class="lottie" src="https://assets2.lottiefiles.com/packages/lf20_rycdh53q.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
       </div>
@@ -52,7 +49,7 @@
         <lottie-player class="lottie" src="https://assets10.lottiefiles.com/private_files/lf30_abpsfqg6.json"  background="transparent"  speed="1" loop  autoplay></lottie-player>
       </div>
     </div>
-    <div class="grid" data-aos="zoom-in-up" data-aos-offset="100">
+    <div class="grid separator small-separator" data-aos="zoom-in-up" data-aos-offset="100">
       <div class="col">
         <lottie-player class="lottie" src="https://assets5.lottiefiles.com/private_files/lf30_BX96aR.json"  background="transparent"  speed="1" loop  autoplay></lottie-player>
       </div>
@@ -91,10 +88,6 @@ export default {
     left: 17%
     .polygon
       animation-delay: 1s
-  .rellax3
-    position: absolute
-    top: 30%
-    left: 13%
   .rellax4
     position: absolute
     bottom: -30%

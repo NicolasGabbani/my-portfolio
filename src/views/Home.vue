@@ -13,7 +13,7 @@
     <div class="polygon-empty polygon-empty3">
       <div class="polygon reverse"></div>
     </div>
-    <h1 class="itsme">{{data.firstname}} <span>{{data.lastname}}</span> <div class="i"></div> <div class="i-hidden"></div></h1>
+    <h1 class="itsme">{{data.firstname}} <span>{{data.lastname}}</span></h1>
     <span class="itsme-desc">Développeur Front-End</span>
     <router-link class="cta" to="/about">me découvrir</router-link>
   </div>
@@ -52,29 +52,6 @@ export default {
   position: relative
   span
     color: var(--color-green)
-  .i, .i-hidden
-    display: block
-
-    width: 20px
-    height: 20px
-
-    border-radius: 50%
-    background: var(--color-one)
-
-    position: absolute
-    top: 16%
-    right: 0
-  .i
-    top: 14%
-    right: 1px
-    z-index: 5
-
-    width: 18px
-    height: 18px
-
-    background: var(--color-green)
-
-    animation: floating 6s ease-in-out infinite
     
 .itsme-desc
   display: block
