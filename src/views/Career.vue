@@ -43,7 +43,7 @@
       <div class="bg-img" :style="{ backgroundImage: `url(${require(`@/images/jobmedic.jpg`)})` }"></div>
       <div class="bg-white">
         <h2><a href="https://www.jobmedic.co.uk/" target="_blank">jobmedic.co.uk</a></h2>
-        <div class="society">Job Medic</div>
+        <div class="society">careerbuilder</div>
         <p>
           <span class="tag">RoR</span>
           <span class="tag">jQuery</span>
@@ -59,18 +59,6 @@
     </div>
   </div>
 </template>
-
-<script>
-import AOS from 'aos'
-import 'aos/dist/aos.css'
-import Rellax from 'rellax'
-export default {
-  mounted() {
-    AOS.init()
-    new Rellax('.rellax')
-  }
-}
-</script>
 
 <style lang="sass" scoped>
   .bg-img

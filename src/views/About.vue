@@ -94,8 +94,8 @@ export default {
     left: 10%
   .rellax5
     position: absolute
-    bottom: -70%
-    left: 14%
+    bottom: -30%
+    right: 14%
     .polygon
       animation-delay: 1s
   .rellax6
