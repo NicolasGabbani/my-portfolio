@@ -31,8 +31,9 @@
       <div class="col">
         <h2>Investi !</h2>
         <p>Toujours la tête dans le cloud et en veille technologique, je cherche toujours à avoir une plus-value dans mes intégrations pour réaliser des produits à l'effet "wow".</p>
+        <p>J'aime travailler avec les méthodes agiles pour être plus efficace dans mon organisation.</p>
         <p>
-          <span class="tag">pixel perfect</span> <span class="tag">responsive design</span> <span class="tag">clean code</span>
+          <span class="tag">pixel perfect</span> <span class="tag">responsive design</span> <span class="tag">clean code</span> <span class="tag">scrum</span>
         </p>
       </div>
     </div>
@@ -45,7 +46,7 @@
           <span class="tag">per coding</span> <span class="tag">inspirant</span> <span class="tag">méthodes agiles</span>
         </p>
       </div>
-      <div class="col">
+      <div class="col col-responsive-first">
         <lottie-animation path="json/teamwork.json" :loop="true" :autoPlay="true" :speed="1" />
       </div>
     </div>

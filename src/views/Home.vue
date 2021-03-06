@@ -1,8 +1,8 @@
 <template>
   <div class="home">
-    <div class="polygon reverse polygon-html">REACT</div>
-    <div class="polygon polygon-css">AGILE</div>
-    <div class="polygon reverse polygon-js">VUEJS</div>
+    <div class="polygon reverse polygon-react">REACT</div>
+    <div class="polygon polygon-agile">AGILE</div>
+    <div class="polygon reverse polygon-vuejs">VUEJS</div>
     <div class="polygon polygon-design">UX/UI</div>
     <div class="polygon-empty polygon-empty1">
       <div class="polygon"></div>
@@ -60,6 +60,46 @@ export default {
 
   font-size: 2rem
   font-family: var(--font-dancing)
+
+.polygon-react
+  top: 30%
+  left: 30%
+
+.polygon-agile
+  top: 35%
+  right: 30%
+  animation-delay: 1s
+
+.polygon-vuejs
+  bottom: 30%
+  right: 40%
+  animation-delay: 1.5s
+
+.polygon-design
+  bottom: 40%
+  left: 25%
+  animation-delay: 1.2s
+
+.polygon-empty
+  position: absolute
+  z-index: -1
+  
+.polygon-empty1
+  top: 30%
+  transform: scale(.4)
+  filter: blur(4px)
+
+.polygon-empty2
+  bottom: 35%
+  right: 35%
+  transform: scale(.6)
+  filter: blur(4px)
+
+.polygon-empty3
+  bottom: 30%
+  left: 35%
+  transform: scale(.3)
+  filter: blur(12px)
 
 .cta
   display: block
