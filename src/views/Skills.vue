@@ -8,7 +8,7 @@
     <div class="sub-title">J'avoue, j'ai une préférence pour VueJS...</div>
     <div class="grid separator" data-aos="zoom-in-up" data-aos-offset="100">
       <div class="col">
-        <lottie-player class="lottie lottie-small" src="https://assets1.lottiefiles.com/packages/lf20_irbwsg1b.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
+        <lottie-animation path="json/skill.json" :loop="true" :autoPlay="true" :speed="1" />
       </div>
       <div class="col">
         <h2>Les bases !</h2>
@@ -99,8 +99,19 @@
 </template>
 
 <script>
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+import LottieAnimation from "lottie-vuejs/src/LottieAnimation.vue"
 export default {
   name: 'Skills',
+  mounted() {
+    AOS.init()
+  },
+  setup() {
+    return {
+      LottieAnimation
+    }
+  }
 }
 </script>
 

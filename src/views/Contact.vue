@@ -8,7 +8,7 @@
     <div class="sub-title">Allo ? Bonjour, vous allez bien ? :)</div>
     <div class="grid separator" data-aos="zoom-in-up" data-aos-offset="100">
       <div class="col">
-        <lottie-player class="lottie" src="https://assets8.lottiefiles.com/packages/lf20_w9mt0E.json"  background="transparent"  speed="1" loop  autoplay></lottie-player>
+        <lottie-animation path="json/contact.json" :loop="true" :autoPlay="true" :speed="1" />
       </div>
       <div class="col">
         <p>Si mon profil vous intéresse,  n'hésitez pas à me contacter ! Je serais ravi d'échanger avec vous, c'est toujours enrichissant !</p>
@@ -20,6 +20,22 @@
     </div>
   </div>
 </template>
+
+<script>
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+import LottieAnimation from "lottie-vuejs/src/LottieAnimation.vue"
+export default {
+  mounted() {
+    AOS.init()
+  },
+  setup() {
+    return {
+      LottieAnimation
+    }
+  }
+}
+</script>
 
 <style lang="sass">
   .design-circle

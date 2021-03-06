@@ -26,7 +26,7 @@
     <div class="sub-title">Pas peu fier d'être autodidacte !</div>
     <div class="grid separator small-separator" data-aos="zoom-in-up" data-aos-offset="100">
       <div class="col">
-        <lottie-player class="lottie" src="https://assets2.lottiefiles.com/packages/lf20_rycdh53q.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
+        <lottie-animation path="json/investi.json" :loop="true" :autoPlay="true" :speed="1" />
       </div>
       <div class="col">
         <h2>Investi !</h2>
@@ -46,12 +46,12 @@
         </p>
       </div>
       <div class="col">
-        <lottie-player class="lottie" src="https://assets10.lottiefiles.com/private_files/lf30_abpsfqg6.json"  background="transparent"  speed="1" loop  autoplay></lottie-player>
+        <lottie-animation path="json/teamwork.json" :loop="true" :autoPlay="true" :speed="1" />
       </div>
     </div>
     <div class="grid separator small-separator" data-aos="zoom-in-up" data-aos-offset="100">
       <div class="col">
-        <lottie-player class="lottie" src="https://assets5.lottiefiles.com/private_files/lf30_BX96aR.json"  background="transparent"  speed="1" loop  autoplay></lottie-player>
+        <lottie-animation path="json/autodidacte.json" :loop="true" :autoPlay="true" :speed="1" />
       </div>
       <div class="col">
         <h2>Autodidacte !</h2>
@@ -69,11 +69,17 @@
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import Rellax from 'rellax'
+import LottieAnimation from "lottie-vuejs/src/LottieAnimation.vue"
 export default {
   mounted() {
     AOS.init()
     new Rellax('.rellax')
   },
+  setup() {
+    return {
+      LottieAnimation
+    }
+  }
 }
 </script>
 

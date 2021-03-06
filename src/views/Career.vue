@@ -21,7 +21,7 @@
         </ul>
       </div>
     </div>
-    <div class="separator" data-aos="zoom-in-up" data-aos-offset="100">
+    <div class="separator" data-aos="zoom-in-up" data-aos-offset="-100">
       <div class="bg-img" :style="{ backgroundImage: `url(${require(`@/images/careerbuilder.png`)})` }"></div>
       <div class="bg-white">
         <h2><a href="https://www.careerbuilder.com/" target="_blank">careerbuilder.com</a></h2>
@@ -39,7 +39,7 @@
         </ul>
       </div>
     </div>
-    <div class="separator" data-aos="zoom-in-up" data-aos-offset="100">
+    <div class="separator" data-aos="zoom-in-up" data-aos-offset="-100">
       <div class="bg-img" :style="{ backgroundImage: `url(${require(`@/images/jobmedic.jpg`)})` }"></div>
       <div class="bg-white">
         <h2><a href="https://www.jobmedic.co.uk/" target="_blank">jobmedic.co.uk</a></h2>
@@ -59,6 +59,16 @@
     </div>
   </div>
 </template>
+
+<script>
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+export default {
+  mounted() {
+    AOS.init()
+  }
+}
+</script>
 
 <style lang="sass" scoped>
   .bg-img
