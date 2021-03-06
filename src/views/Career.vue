@@ -2,10 +2,11 @@
   <div class="content">
     <div class="design-circle"></div>
     <h1>ma carrière</h1>
-    <div class="separator small-separator">
-      <img class="img" :src="require(`@/images/lesjeudis.jpg`)" alt="LesJeudis.com">
+    <div class="sub-title">J'ai travaillé pour CareerBuilder pendant 6 ans.</div>
+    <div class="separator small-separator" data-aos="zoom-in-up" data-aos-offset="100">
+      <div class="bg-img" :style="{ backgroundImage: `url(${require(`@/images/lesjeudis.jpg`)})` }"></div>
       <div class="bg-white">
-        <h2>LesJeudis.com</h2>
+        <h2><a href="https://www.lesjeudis.com/" target="_blank">LesJeudis.com</a></h2>
         <div class="society">careerbuilder</div>
         <p>
           <span class="tag">RoR</span>
@@ -20,11 +21,29 @@
         </ul>
       </div>
     </div>
-    <div class="separator">
-      <img class="img" :src="require(`@/images/careerbuilder.png`)" alt="careerbuilder.com">
+    <div class="separator" data-aos="zoom-in-up" data-aos-offset="100">
+      <div class="bg-img" :style="{ backgroundImage: `url(${require(`@/images/careerbuilder.png`)})` }"></div>
       <div class="bg-white">
-        <h2>careerbuilder.com</h2>
+        <h2><a href="https://www.careerbuilder.com/" target="_blank">careerbuilder.com</a></h2>
         <div class="society">careerbuilder</div>
+        <p>
+          <span class="tag">RoR</span>
+          <span class="tag">jQuery</span>
+          <span class="tag">Responsive</span>
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ratione nemo cum voluptas vitae, suscipit commodi dolorum hic maxime aperiam consectetur voluptate! Ut, ratione tenetur! Delectus deserunt alias ratione voluptatibus!</p>
+        <h4>Missions :</h4>
+        <ul>
+          <li>Intégrateur et UI/UX designer</li>
+          <li>Optimisation et simplification du code, maintenance des solutions et expertise design (UI et UX)</li>
+        </ul>
+      </div>
+    </div>
+    <div class="separator" data-aos="zoom-in-up" data-aos-offset="100">
+      <div class="bg-img" :style="{ backgroundImage: `url(${require(`@/images/jobmedic.jpg`)})` }"></div>
+      <div class="bg-white">
+        <h2><a href="https://www.jobmedic.co.uk/" target="_blank">jobmedic.co.uk</a></h2>
+        <div class="society">Job Medic</div>
         <p>
           <span class="tag">RoR</span>
           <span class="tag">jQuery</span>
@@ -41,11 +60,27 @@
   </div>
 </template>
 
+<script>
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+import Rellax from 'rellax'
+export default {
+  mounted() {
+    AOS.init()
+    new Rellax('.rellax')
+  }
+}
+</script>
+
 <style lang="sass" scoped>
-  .img
-    display: block
-    width: 50vw
+  .bg-img
+    height: 350px
+    width: 100%
     border-radius: 10px
+    
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center center
   .society
     color: grey
     text-transform: uppercase
