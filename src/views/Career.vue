@@ -28,7 +28,7 @@
     <div class="rellax rellax10" data-rellax-speed="6">
       <div class="polygon blur"></div>
     </div>
-    <div class="rellax rellax11" data-rellax-speed="6">
+    <div class="rellax rellax11" data-rellax-speed="3">
       <div class="polygon blur"></div>
     </div>
     <h1>ma carrière</h1>
@@ -182,19 +182,19 @@ export default {
       animation-delay: 1s
   .rellax9
     position: absolute
-    bottom: -150%
+    bottom: -90%
     right: 10%
     .polygon
       animation-delay: 1.5s
   .rellax10
     position: absolute
-    bottom: -170%
+    bottom: -80%
     left: 10%
     .polygon
       animation-delay: .5s
   .rellax11
     position: absolute
-    bottom: -180%
+    bottom: -70%
     left: 13%
     .polygon
       animation-delay: 1s
