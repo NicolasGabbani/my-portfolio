@@ -32,10 +32,10 @@
           <span class="tag big-tag">Responsive</span>
         </div>
         <div class="col">
-          <span class="tag big-tag">Cross Browser</span>
+          <span class="tag big-tag">Git</span>
         </div>
         <div class="col">
-          <span class="tag big-tag">Github/Gitlab</span>
+          <span class="tag big-tag">Cross Browser</span>
         </div>
         <div class="col">
           <span class="tag big-tag">react</span>
@@ -58,7 +58,7 @@
       </div>
     </div>
     <div>
-      <h2>mes plugins javascript préférés</h2>
+      <h2>Mes plugins javascript préférés</h2>
       <div class="full-grid skills">
         <div class="col">
           <span class="tag big-tag">owl carousel</span>

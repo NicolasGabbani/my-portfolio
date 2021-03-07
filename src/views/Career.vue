@@ -46,7 +46,7 @@
             <span class="tag">UX/UI</span>
             <span class="tag">From Scratch</span>
           </p>
-          <p>Site d'emploi spécialisé dans l'IT, mon rôle a été d'intégrer ce design à partir de maquettes sous la technologie RubyOnRails. Tout le code front-end est from-scratch et fait maison !</p>
+          <p>Site d'emploi spécialisé dans l'IT, mon rôle a été d'intégrer ce design à partir de maquettes sous le framework RubyOnRails. Tout le code front-end est from-scratch et fait maison !</p>
           <h4>Missions :</h4>
           <ul>
             <li>Intégrateur/Développeur Front-End</li>
