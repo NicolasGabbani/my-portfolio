@@ -1,5 +1,5 @@
 <template>
-  <div class="content">
+  <div class="content" id="about">
     <div class="design-circle"></div>
     <div class="rellax rellax1" data-rellax-speed="7">
       <div class="polygon reverse blur"></div>

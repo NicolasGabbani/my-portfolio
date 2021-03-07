@@ -1,5 +1,5 @@
 <template>
-  <div class="content">
+  <div class="content" id="contact">
     <div class="polygon polygon1 blur"></div>
     <div class="polygon polygon2 blur"></div>
     <div class="polygon polygon3 reverse blur"></div>

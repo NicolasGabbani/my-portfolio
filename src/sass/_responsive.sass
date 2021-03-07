@@ -3,6 +3,10 @@
   .grid
     grid-template-columns: repeat(1, 1fr)
     grid-gap: 20px
+  .full-grid
+    grid-template-columns: repeat(2, 1fr) !important
+  .col-end
+    grid-column-start: 2 !important
   .col-responsive-first
     grid-row: 1
   
@@ -16,6 +20,28 @@
     right: 4% !important
   .polygon-vuejs
     right: 10% !important
+
+  // SKILLS
+  #skills
+    .polygon1
+      left: 8% !important
+    .polygon2
+      left: 10% !important
+    .polygon3
+      right: 14% !important
+
+  // ABOUT
+  #about
+    .rellax1
+      left: 5% !important
+    .rellax2
+      left: 9% !important
+
+  // CONTACT
+  #contact
+    .polygon2
+      right: 14% !important
+      top: 18% !important
 
 @media screen and (max-width: 768px)
   // NAV
@@ -46,11 +72,19 @@
         &:hover, &.router-link-active
           border-color: var(--color-white)
 
-
 @media screen and (max-width: 425px)
   // HOME
   .itsme
     font-size: 3rem !important
+  // SKILLS
+  .tag.big-tag
+    font-size: 1rem !important
+    text-align: center !important
+  // TEMPLATE
+  .grid, .full-grid, .separator
+    width: 90vw !important
+  .rellax, .polygon
+    display: none !important
 
 @media screen and (max-width: 320px)
   // HOME
@@ -58,3 +92,10 @@
     font-size: 2rem !important
   .polygon
     display: none !important
+
+  // TEMPLATE
+  .content
+    h1
+      font-size: 1.3rem !important
+    .sub-title
+      font-size: 1rem !important

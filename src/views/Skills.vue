@@ -1,5 +1,5 @@
 <template>
-  <div class="content">
+  <div class="content" id="skills">
     <div class="design-circle"></div>
     <div class="polygon polygon1 reverse blur"></div>
     <div class="polygon polygon2 blur"></div>
@@ -76,7 +76,7 @@
           <span class="tag big-tag">lottiefiles</span>
         </div>
         <div class="col">
-          <span class="tag big-tag" style="font-size: 1.9rem">animate on scroll</span>
+          <span class="tag big-tag">animate on scroll</span>
         </div>
         <div class="col">
           <span class="tag big-tag">progressbar</span>
