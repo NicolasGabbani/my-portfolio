@@ -43,7 +43,7 @@
         <p>En tant que développeur front-end, je prends plaisir à travailler avec l'ensemble d'une équipe pour mener à bien des projets alliant technicité et sensibilité.</p>
         <p>Force de proposition, j'aime apporter des conseils et partager mon expérience pour le bien d'un projet et, bien sûr, m'enrichir des autres.</p>
         <p>
-          <span class="tag">per coding</span> <span class="tag">inspirant</span> <span class="tag">méthodes agiles</span>
+          <span class="tag">peer coding</span> <span class="tag">inspirant</span> <span class="tag">méthodes agiles</span>
         </p>
       </div>
       <div class="col col-responsive-first">
@@ -56,7 +56,7 @@
       </div>
       <div class="col">
         <h2>Autodidacte !</h2>
-        <p>Passionné depuis toujours, j'ai décidé, il y a maintenant 6 ans, de faire internet mon métier. <br> Ma curiosité naturelle m'a amméné à apprendre tout ce que je pouvais sur le développement web.</p>
+        <p>Passionné depuis toujours, j'ai décidé, il y a maintenant 6 ans, de faire d'internet mon métier. <br> Ma curiosité naturelle m'a amené à apprendre tout ce que je pouvais sur le développement web.</p>
         <p>Pourquoi être devenu Développeur Front-End ? J'aime quand une maquette prend vie.</p>
         <p>
           <span class="tag">try hard</span> <span class="tag">indépendant</span> <span class="tag">challenger</span>

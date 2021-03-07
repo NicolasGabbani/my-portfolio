@@ -12,8 +12,8 @@
       </div>
       <div class="col">
         <h2>Les bases !</h2>
-        <p>Sans surprises, je maitrîse parfaitement <b>HTML5</b> et <b>CSS3/SASS</b> en m'appuyant sur des techniques modernes (et bien pratique).</p>
-        <p>D'un naturel curieux et toujours à la recherche de l'excellence, je continue à me former constament sur les nouvelles technologies sur le marché comme <b>Vuejs</b> ou <b>React</b> tout en maintenant un excellent niveau en <b>javascript ES6</b> et <b>jQuery</b>.</p>
+        <p>Sans surprises, je maitrîse parfaitement <b>HTML5</b> et <b>CSS3/SASS</b> en m'appuyant sur des techniques modernes (et bien pratiques).</p>
+        <p>D'un naturel curieux et toujours à la recherche de l'excellence, je continue à me former constamment sur les nouvelles technologies sur le marché comme <b>Vuejs</b> ou <b>React</b> tout en maintenant un excellent niveau en <b>javascript ES6</b> et <b>jQuery</b>.</p>
         <p>
           <span class="tag">HTML5/HAML</span> <span class="tag">CSS3/SASS/SCSS/LESS</span> <span class="tag">JS/jQuery</span>
         </p>
