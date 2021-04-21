@@ -33,8 +33,9 @@
     </div>
     <h1>ma carrière</h1>
     <div class="sub-title">J'ai travaillé pour CareerBuilder pendant 6 ans.</div>
-    <div>
-      <div class="separator small-separator" data-aos="zoom-in-up" data-aos-offset="100">
+    <div class="main-society separator small-separator">
+      <h2>CareerBuilder</h2>
+      <div data-aos="zoom-in-up" data-aos-offset="100">
         <div class="bg-img" :style="{ backgroundImage: `url(${require(`@/images/lesjeudis.jpg`)})` }"></div>
         <div class="bg-white">
           <h2><a href="https://www.lesjeudis.com/" target="_blank">LesJeudis.com</a></h2>
@@ -53,9 +54,10 @@
             <li>Optimisation et simplification du code, maintenance des solutions</li>
             <li>Designer pour la partie responsive du site</li>
           </ul>
+          <a href="https://www.lesjeudis.com/" target="_blank" class="btn site-link">voir le site</a>
         </div>
       </div>
-      <div class="separator" data-aos="zoom-in-up" data-aos-offset="-100">
+      <div class="separator" data-aos="zoom-in-up" data-aos-offset="20">
         <div class="bg-img" :style="{ backgroundImage: `url(${require(`@/images/jobmedic.jpg`)})` }"></div>
         <div class="bg-white">
           <h2><a href="https://www.jobmedic.co.uk/" target="_blank">jobmedic.co.uk</a></h2>
@@ -73,9 +75,10 @@
             <li>Intégrateur et UI/UX designer</li>
             <li>Optimisation et simplification du code, maintenance des solutions et expertise design (UI et UX)</li>
           </ul>
+          <a href="https://www.jobmedic.co.uk/" target="_blank" class="btn site-link">voir le site</a>
         </div>
       </div>
-      <div class="separator" data-aos="zoom-in-up" data-aos-offset="-100">
+      <div class="separator" data-aos="zoom-in-up" data-aos-offset="20">
         <div class="bg-img" :style="{ backgroundImage: `url(${require(`@/images/careerbuilder.png`)})` }"></div>
         <div class="bg-white">
           <h2><a href="https://www.careerbuilder.com/" target="_blank">careerbuilder.com</a></h2>
@@ -94,9 +97,53 @@
             <li>Optimisation et simplification du code, maintenance des solutions et expertise design (UI et UX)</li>
             <li>Présentation live hebdomadaire aux PO/Staff en anglais</li>
           </ul>
+          <a href="https://www.careerbuilder.com/" target="_blank" class="btn site-link">voir le site</a>
         </div>
       </div>
     </div>
+    <div class="main-society">
+      <h2>Autres projets</h2>
+      <div data-aos="zoom-in-up" data-aos-offset="20">
+        <div class="bg-img" :style="{ backgroundImage: `url(${require(`@/images/superlicorne.jpg`)})` }"></div>
+        <div class="bg-white">
+          <h2><a href="http://superlicorne.com/" target="_blank">SuperLicorne.com</a></h2>
+          <div class="society">S.A.S Yoan Montalban</div>
+          <p>
+            <span class="tag">Vuejs</span>
+            <span class="tag">animate.css</span>
+            <span class="tag">nes.css</span>
+          </p>
+          <p>Idle game où le but du jeu est d'avoir un maximum de fraises. Vous pouvez acheter des bâtiments, débloquer des succès, avoir des bonus aléatoires et acheter des améliorations. Le jeu a été développé from-scratch.</p>
+          <h4>Missions :</h4>
+          <ul>
+            <li>Développeur Front-End</li>
+            <li>Expertise UX</li>
+            <li>Force de propositions pour améliorer le jeu</li>
+          </ul>
+          <a href="http://superlicorne.com/" target="_blank" class="btn site-link">voir le site</a>
+        </div>
+      </div>
+      <div class="separator" data-aos="zoom-in-up" data-aos-offset="20">
+        <div class="bg-img" :style="{ backgroundImage: `url(${require(`@/images/pokemon.png`)})` }"></div>
+        <div class="bg-white">
+          <h2><a href="https://pkm-api.herokuapp.com/" target="_blank">Pokemon</a></h2>
+          <p>
+            <span class="tag">Vuejs</span>
+            <span class="tag">aos</span>
+            <span class="tag">PokeAPI</span>
+          </p>
+          <p>À partir de l'API PokeAPI, découvrez les pokémons de première génération. Petit site sans prétention.</p>
+          <h4>Missions :</h4>
+          <ul>
+            <li>Développeur Front-End</li>
+            <li>Expertise UX/UI</li>
+            <li>Consommation d'API</li>
+          </ul>
+          <a href="https://pkm-api.herokuapp.com/" target="_blank" class="btn site-link">voir le site</a>
+        </div>
+      </div>
+    </div>
+    &nbsp;
   </div>
 </template>
 
@@ -115,8 +162,19 @@ export default {
 <style lang="sass" scoped>
   .design-circle
     background: var(--color-five)
-  .separator:last-child
+  .main-society
+    background-color: var(--color-white)
+    box-shadow: 0 0 25px 5px rgba(0,0,0,.4)
+
+    padding: 20px
     margin-bottom: 100px
+
+    border-radius: 10px
+    
+    box-sizing: initial
+    h2
+      margin-bottom: 20px
+      text-align: center
   .bg-img
     height: 350px
     width: 100%
@@ -146,6 +204,11 @@ export default {
       margin-right: 4px 
       &:last-child
         margin-right: 0
+  .site-link
+    display: block
+    margin-top: 20px
+
+    text-align: center
   .rellax1
     position: absolute
     bottom: 30%
